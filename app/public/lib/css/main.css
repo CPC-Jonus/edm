@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.hero-image {
+  /* immage credit : Photo by Christopher Gower on Unsplash */
+  background-image: url("../../image/edit/111.jpg");
+  background-color: #cccccc;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #e5e8e8;
+}
+.p1 {
+  height: 100vh;
+}
+.f1 {
+  font-size: 13px;
+}
+.bg-1 {
+  background-color: #1b2631;
+}
+.font-sm-1 {
+  font-size: 13px;
+  color: #d5d8dc;
+}
+.color-1 {
+  color: #bfc9ca;
+}
+.underline-1 {
+  text-decoration: underline;
+}
+.main-bg-color {
+  background-color: #f8f9f9;
+}
+.u-desc {
+  font-size: 12px;
+}
+
+/* Global Class */
+.d-color {
+  color: #99a3a4;
+}
+.m-color {
+  color: #5d6d7e;
+}
+.font-1 {
+  font-size: 11px;
+}
