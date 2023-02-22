@@ -1,0 +1,6 @@
+$myFile = "test.txt";
+$fh = fopen($myFile, 'r');
+while ($line = fgets($fh)) {
+    echo $line . "<br>";
+}
+fclose($fh);
